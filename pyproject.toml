@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyautoschema"
+version = "0.1.0"
+description = "Automatically generate Pydantic models from dictionaries"
+readme = "README.md"
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Shakhobiddin Bozorov", email = "bozorovshahob27@gmail.com"}
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://pypi.org/project/pyautoschema/"
+"Repository" = "https://github.com/Robben1972/pyautoschema"
